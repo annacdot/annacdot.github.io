@@ -77,6 +77,9 @@ header img {
   position: fixed;
   }
 
+.headerAlt {
+  display: none;
+}
 /*ABOUT ME*//*ABOUT ME*//*ABOUT ME*/
 
 .aboutMe {
@@ -171,4 +174,86 @@ footer p.contact a {
   color: black;
 }
 
+.footerAlt {
+  display: none;
+}
+
+/*RESPONSIVE*//*RESPONSIVE*//*RESPONSIVE*/
+
+
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+    
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+     
+    header {
+  display: none;
+}
+
+div.headerAlt {
+  display: block;
+}
+
+div.headerAlt img {
+  width: 100%;
+
+}
+
+p, h1, h2, h3 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  padding: 1%;
+  color: grey;
+}
+
+.skills {
+
+  background: url("images/backgroundContent.png"); 
+    color: white;
+    text-align: justify;
+
+}
+.skills ul li p {
+  font-size: 20px;
+  color: white;
+}
+
+.skillsBlurb {
+  display: none;
+}
+
+.aboutMe {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+.footerAlt {
+  display: block;
+  padding: 2%;
+}
+
+.footerAlt .socialIcons a {
+  color: black;
+}
+
+.socialIcons {
+  text-align: center;
+  padding: 2%;
+}
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    
+    }
 
