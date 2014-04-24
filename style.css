@@ -24,19 +24,17 @@ body {
 h1, h2 {
     font-size: 30px;
     font-family: 'Nixie One', sans-serif;
-    color: #000;
-    line-height: 200%;
+    color: #000;  
   }
 
-/*h2 {
-  padding-top: 10%;
-}*/
+header h2 {
+  line-height: 200%;
+}
+
 h1 {
   text-align: left;
   width: 30%;
   font-family: 'Nothing You Could Do', sans-serif;
- /* margin-left: 71%;
-  margin-top: -17%;*/
   line-height: 150%;
   }
 
@@ -44,8 +42,6 @@ h3, h1 {
     font-size: 30px;
     font-family: 'Nothing You Could Do', sans-serif;
      color: #000;
-     line-height: 150%;
-
     }
 
 
@@ -53,9 +49,6 @@ h3 {
   padding-top: 2%;
 }
 
-/*header h3 {
-  padding-top: 10%;
-}*/
 p {
     clear: both;
     font-family: 'Nixie One', sans-serif;
@@ -88,7 +81,6 @@ header {
 .fa-twitter {
   width: 5%;
   margin-left:85%;
-  /*margin-top: -5%;*/
   position: fixed;
   color: #FF3D7F ;
   font-size: 60px;
@@ -97,6 +89,7 @@ header {
 .headerAlt {
   display: none;
 }
+
 /*ABOUT ME*//*ABOUT ME*//*ABOUT ME*/
 
 .aboutMe {
@@ -152,9 +145,8 @@ span.special h4 {
 
 /*FOOTER*//*FOOTER*//*FOOTER*/
 
-footer p, footer h4 {
+footer h4, footer p {
     text-align: justify;
-    background: white;
   }
 
 footer h4 {
@@ -163,14 +155,8 @@ footer h4 {
   text-transform: lowercase;
   }
 
-.special h3 {
-  text-align: center;
-  }
-
 footer p.contact {
-  text-align: center;
   font-size: 15px;
-  line-height: 0; /*doesn't work - why? :( */
   }
 
 footer p.contact a {
@@ -180,6 +166,11 @@ footer p.contact a {
 
 .footerAlt {
   display: none;
+}
+
+footer p.contact {
+  display: inline;
+  text-align: center; /*why doesn't this work?*/
 }
 
 /*RESPONSIVE*//*RESPONSIVE*//*RESPONSIVE*/
