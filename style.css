@@ -280,17 +280,6 @@ p, h1, h2, h3 {
 
 .skills {
 
-  background: url("images/backgroundContent.png"); 
-    color: white;
-    text-align: justify;
-
-}
-.skills ul li p {
-  font-size: 20px;
-  color: white;
-}
-
-.skillsBlurb {
   display: none;
 }
 
@@ -305,10 +294,14 @@ footer {
 .footerAlt {
   display: block;
   padding: 2%;
+  background: url("images/backgroundContent.png"); 
+  color: white;
+  text-align: justify;
 }
 
 .footerAlt .socialIcons a {
   color: black;
+  margin-right: 5%;
 }
 
 .socialIcons {
