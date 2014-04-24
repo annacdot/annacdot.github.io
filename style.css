@@ -1,0 +1,175 @@
+
+/*GLOBAL STYLES*//*GLOBAL STYLES*//*GLOBAL STYLES*/
+
+
+* {
+    box-model: * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; };
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+body {
+	  margin: 0;
+    padding: 0;
+  }
+
+h1, h2 {
+    font-size: 30px;
+    font-family: 'Nixie One', sans-serif;
+    line-height: 150%;
+  }
+
+h1 {
+  text-align: right;
+  width: 25%;
+  color: grey;
+  margin-left: 71%;
+  margin-top: -17%;
+  font-size: 20px;
+  }
+
+h3, h1 {
+    font-size: 30px;
+    font-family: 'Nothing You Could Do', sans-serif;
+    }
+
+p {
+    clear: both;
+    font-family: 'Nixie One', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 5%;
+  }
+
+a {
+  text-decoration: underline;
+  color: #FF3D7F /*#D31996*/;
+  }
+
+.aboutMe, .skills, footer {
+     font-family: 'Nixie One', sans-serif;
+     font-size: 20px;
+     line-height: 150%;
+     padding: 10% 15% 10% 15%;
+  }
+
+/*HEADER*//*HEADER*//*HEADER*/
+
+header {
+  padding: 10% 0% 10% 5%;
+  background: url("images/background3wide3.jpg") no-repeat; 
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  }
+
+header img {
+  width: 5%;
+  margin-left:85%;
+  margin-top: -5%;
+  position: fixed;
+  }
+
+/*ABOUT ME*//*ABOUT ME*//*ABOUT ME*/
+
+.aboutMe {
+    background: url("images/backgroundContent.png"); 
+    color: white;
+    text-align: justify;
+  }
+
+/*SKILLS*//*SKILLS*//*SKILLS*/
+
+
+.skills {
+  background: white;
+  color: black;
+  text-align: justify;
+  }
+
+.skills ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.skills ul li {
+    width:30%;
+    float: left;
+  }
+
+.skills ul li img {
+    width: 100%;
+  }
+
+.skills ul li .smallerImage {
+    padding-top: 10%;
+  }
+
+.skills ul li .smallerImage.extra {
+    padding-bottom: 22%;
+    padding-top: 11.5%;
+  }
+
+.skills ul li p {
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  }
+
+p span.special, span.special h4 {
+    font-weight: bolder;
+    color: #FF3D7F;
+  }
+
+/*ABOUT ME*//*ABOUT ME*//*ABOUT ME*/
+
+.aboutMe img {
+    width: 10%;
+    margin-left:45%;
+    background: white;
+    border-radius: 50%;
+  }
+
+.aboutMe {
+  background-position: 20% 50%;
+  }
+
+/*FOOTER*//*FOOTER*//*FOOTER*/
+
+footer p, footer h4 {
+    text-align: justify;
+    background: white;
+  }
+
+footer h4 {
+  text-align: center;
+  line-height: 50%;
+  text-transform: lowercase;
+  }
+
+.special h3 {
+  text-align: center;
+  }
+
+footer p.contact {
+  text-align: center;
+  font-size: 15px;
+  line-height: 0; /*doesn't work - why? :( */
+  }
+
+footer p.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+
