@@ -21,32 +21,27 @@ body {
     padding: 0;
   }
 
-h1, h2 {
+h3, h2 {
     font-size: 30px;
     font-family: 'Nixie One', sans-serif;
     color: #000;  
   }
 
-header h2 {
-  line-height: 200%;
-}
-
-h1 {
-  text-align: left;
-  width: 30%;
-  font-family: 'Nothing You Could Do', sans-serif;
-  line-height: 150%;
-  }
-
-h3, h1 {
+h3 {
     font-size: 30px;
     font-family: 'Nothing You Could Do', sans-serif;
-     color: #000;
-    }
+    color: #000;
+    padding-top: 2%;
+}
 
+header h3 {
+  text-align: left;
+  width: 40%;
+  font-family: 'Nothing You Could Do', sans-serif;
 
-h3 {
-  padding-top: 2%;
+}
+header h2 {
+  line-height: 200%;
 }
 
 p {
@@ -59,8 +54,12 @@ p {
 
 a {
   text-decoration: none;
-  color: #FF3D7F /*#D31996*/;
+  color: #D31996;
   }
+
+a:hover, i:hover {
+  color: #FF3D7F;
+}
 
 .aboutMe, .skills, footer {
      font-family: 'Nixie One', sans-serif;
@@ -82,7 +81,7 @@ header {
   width: 5%;
   margin-left:85%;
   position: fixed;
-  color: #FF3D7F ;
+  color: #D31996 ;
   font-size: 60px;
   }
 
