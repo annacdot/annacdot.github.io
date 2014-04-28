@@ -57,7 +57,7 @@ a {
   color: #D31996;
   }
 
-a:hover, i:hover {
+a:hover, i.fa-twitter:hover {
   color: #FF3D7F;
 }
 
@@ -203,6 +203,7 @@ p, h1, h2, h3 {
   width: 70%;
   padding: 1%;
   color:  #000;
+  font-family: 'Nixie One', sans-serif;
 }
 
 .skills {
@@ -242,6 +243,7 @@ footer {
 
 .footerAlt .socialIcons a {
   color: black;
+   padding: 2%;
 }
 }
 }
@@ -287,13 +289,17 @@ footer {
   display: block;
   padding: 2%;
   background: url("images/backgroundContent.png"); 
-  color: white;
   text-align: justify;
 }
 
+.footerAlt h2 {
+  color: white;
+}
+
 .footerAlt .socialIcons a {
-  color: black;
+  color: white;
   margin-right: 5%;
+
 }
 
 .socialIcons {
