@@ -71,9 +71,10 @@ a:hover, i.fa-twitter:hover {
 /*HEADER*//*HEADER*//*HEADER*/
 
 header {
-  padding: 5% 0% 10% 5%;
+  margin: 0;
+  padding: 5% 0% 20% 5%;
   background: url("images/background3wide3.jpg") no-repeat; 
-  background-position: 50% 50%;
+  background-position: 30% 50%;
   background-attachment: fixed;
   }
 
