@@ -302,5 +302,9 @@ p.contact {
   display: block;
   padding-right: 20%;
   }
+
+header p, .skills p, .aboutMe p, footer p {
+  font-size: 13px;
+}
 }
 
