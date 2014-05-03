@@ -206,7 +206,6 @@ p.contact {
 @media (max-width: 768px) {
      
 header {
-  /*width: 80%;*/
   padding: 0;
   margin: 0;
   background: white;
@@ -291,8 +290,17 @@ footer p.contact {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-    @media (max-width: 768px) {
-     
+    header h2, header h3, footer h3 {
+      font-size: 17px;
     }
+
+    .socialIcons a {
+  padding: 4%;
+}
+
+p.contact {
+  display: block;
+  padding-right: 20%;
   }
+}
 
