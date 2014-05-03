@@ -51,7 +51,9 @@ p {
     margin: 0 auto;
     padding-top: 5%;
   }
-
+img.alt {
+  display: none;
+}
 a {
   text-decoration: none;
   color: #D31996;
@@ -109,8 +111,9 @@ header {
 
 .skills ul {
     list-style-type: none;
-    margin: 0 auto;
-    padding-left: 20%;
+    text-align: center;
+    /*margin: 0 auto;
+    padding-left: 20%;*/
   }
 
 .skills ul li {
@@ -145,6 +148,9 @@ span.special h4 {
 
 /*FOOTER*//*FOOTER*//*FOOTER*/
 
+footer {
+  position: relative;
+}
 footer h4, footer p {
     text-align: justify;
   }
@@ -173,6 +179,20 @@ footer p.contact {
   text-align: center; /*why doesn't this work?*/
 }
 
+.socialIcons {
+  text-align: center;
+  
+}
+
+.socialIcons a {
+  padding: 8%;
+}
+
+p.contact {
+  position: absolute;
+  bottom: 5%;
+
+}
 /*RESPONSIVE*//*RESPONSIVE*//*RESPONSIVE*/
 
 
@@ -186,34 +206,43 @@ footer p.contact {
 @media (max-width: 768px) {
      
 header {
-  display: none;
+  /*width: 80%;*/
+  padding: 0;
+  margin: 0;
+  background: white;
 }
-
-div.headerAlt {
+img.alt {
   display: block;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5%;
 }
 
-div.headerAlt img {
-  width: 100%;
-}
 
-p, h1, h2, h3 {
-  font-size: 20px;
+header p, header h1, header h2, header h3 {
+  font-size: 17px;
   text-align: center;
   margin: 0 auto;
-  width: 70%;
   padding: 1%;
+  width: 80%;
   color:  #000;
   font-family: 'Nixie One', sans-serif;
 }
 
-.skills {
+header h2 {
+  font-size: 30px;
+}
+.skills, footer {
     background: url("images/backgroundContent.png"); 
     color: white;
     text-align: justify;
 }
 
-.skills ul {
+.skills p {
+  font-size: 15px;
+}
+.skills ul li {
   text-align: center;
 }
 
@@ -222,31 +251,41 @@ p, h1, h2, h3 {
   color: white;
 }
 
-.skillsBlurb {
-  display: none;
-}
-
 .skills .fa {
   font-size: 30px;
 }
+
 .aboutMe {
-  display: none;
+  background: white;
+  color: black; 
 }
 
-footer {
-  display: none;
+.aboutMe p, footer p {
+  font-size: 15px;
+  line-height: 150%;
 }
 
-.footerAlt {
-  display: block;
-  text-align: center;
+footer p {
+  color: white;
 }
 
-.footerAlt .socialIcons a {
-  color: black;
-   padding: 2%;
+footer a, footer p.contact a {
+  text-decoration: underline;
+  color: white;
 }
+
+h3 {
+  color: white;
+  font-size: 20px;
 }
+.fa-3x {
+  font-size: 2em;
+  padding-bottom: 20%;
+}
+footer p.contact {
+  font-size: 10px;
+}
+
 }
 
 
@@ -254,59 +293,6 @@ footer {
 @media (max-width: 480px) {
     @media (max-width: 768px) {
      
-header {
-  display: none;
-}
-
-div.headerAlt {
-  display: block;
-}
-
-div.headerAlt img {
-  width: 100%;
-}
-
-p, h1, h2, h3 {
-  text-align: center;
-  margin: 0 auto;
-  width: 70%;
-  padding: 1%;
-  color: #000;
-}
-
-.skills {
-  display: none;
-}
-
-.aboutMe {
-  display: none;
-}
-
-footer {
-  display: none;
-}
-
-.footerAlt {
-  display: block;
-  padding: 2%;
-  background: url("images/backgroundContent.png"); 
-  text-align: justify;
-}
-
-.footerAlt h2 {
-  color: white;
-}
-
-.footerAlt .socialIcons a {
-  color: white;
-  margin-right: 5%;
-
-}
-
-.socialIcons {
-  text-align: center;
-  padding: 2%;
-}   
     }
   }
 
