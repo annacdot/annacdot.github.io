@@ -1,0 +1,302 @@
+
+/*GLOBAL STYLES*//*GLOBAL STYLES*//*GLOBAL STYLES*/
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+body {
+	  margin: 0;
+    padding: 0;
+  }
+
+h3, h2, h1 {
+    font-size: 30px;
+    font-family: 'Nixie One', sans-serif;
+    color: #333;  
+    line-height: 150%;
+  }
+
+h3 {
+    font-size: 30px;
+    font-family: 'Nothing You Could Do', sans-serif;
+    color: #333;
+    padding-top: 15%;
+}
+
+header h1 {
+  text-align: left;
+  width: 50%;
+}
+header h3 {
+  text-align: left;
+  width: 40%;
+  font-family: 'Nothing You Could Do', sans-serif;
+
+}
+header h2 {
+  line-height: 200%;
+}
+
+p {
+    clear: both;
+    font-family: 'Nixie One', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 5%;
+    color: #333;
+  }
+
+a {
+  text-decoration: none;
+  color: #D31996;
+  }
+
+a:hover, i.fa-twitter:hover {
+  color: #FF3D7F;
+}
+
+.aboutMe, .skills, footer {
+     font-family: 'Nixie One', sans-serif;
+     font-size: 20px;
+     line-height: 150%;
+     padding: 10% 15% 10% 15%;
+  }
+
+  footer p {
+  line-height: 150%;
+
+  }
+
+/*HEADER*//*HEADER*//*HEADER*/
+
+header {
+  margin: 0;
+  padding: 5% 0% 20% 5%;
+  background: url("images/background3wide3.jpg") no-repeat; 
+  background-position: 30% 50%;
+  background-attachment: fixed;
+  }
+
+.fa-twitter {
+  width: 5%;
+  margin-left:85%;
+  position: fixed;
+  color: #D31996 ;
+  font-size: 60px;
+  }
+
+.headerAlt {
+  display: none;
+}
+
+/*ABOUT ME*//*ABOUT ME*//*ABOUT ME*/
+
+.aboutMe {
+    background: url("images/backgroundContent.png"); 
+    text-align: justify;
+  }
+
+.aboutMe p {
+  color: white;
+}
+/*SKILLS*//*SKILLS*//*SKILLS*/
+
+
+.skills {
+  background: white;
+  color: black;
+  text-align: justify;
+  }
+
+.skills ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 20%;
+  }
+
+.skills ul li {
+    width: 30%;
+    float: left;
+  }
+
+.skills ul li p {
+  padding-top: 10%;
+  color: black;
+  font-size: 25px;
+  font-family: 'Nothing You Could Do', sans-serif;
+  }
+
+span.special h4 {
+    font-weight: bolder;
+    color: #FF3D7F;
+  }
+
+/*ABOUT ME*//*ABOUT ME*//*ABOUT ME*/
+
+.aboutMe img {
+    width: 10%;
+    margin-left:45%;
+    background: white;
+    border-radius: 50%;
+  }
+
+.aboutMe {
+  background-position: 20% 50%;
+  }
+
+/*FOOTER*//*FOOTER*//*FOOTER*/
+
+footer h4, footer p {
+    text-align: justify;
+  }
+
+footer h4 {
+  text-align: center;
+  line-height: 50%;
+  text-transform: lowercase;
+  }
+
+footer p.contact {
+  font-size: 15px;
+  }
+
+footer p.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.footerAlt {
+  display: none;
+}
+
+footer p.contact {
+  display: inline;
+  text-align: center; /*why doesn't this work?*/
+}
+
+.socialIcons {
+  padding: 10%;
+  letter-spacing: 40px;
+  text-align: center;
+}
+
+.alt {
+  display: none;
+}
+
+/*RESPONSIVE*//*RESPONSIVE*//*RESPONSIVE*/
+
+
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  @media (max-width: 940px) {
+
+     
+
+p, h1, h2, h3, footer  {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  padding: 1%;
+  color:  #000;
+  font-family: 'Nixie One', helvetica, sans-serif;
+}
+
+.skills {
+    // background: url("images/backgroundContent.png"); 
+    // color: white;
+    // text-align: justify;
+}
+
+.skills ul {
+  // text-align: center;
+}
+
+.skills ul li p {
+  font-size: 15px;
+  color: white;
+}
+
+.skills .fa {
+  font-size: 30px;
+}
+
+footer p {
+  display: none;
+}
+
+.socialIcons {
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+footer p.contact {
+  font-size: 13px;
+}
+}
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    @media (max-width: 768px) {
+     
+
+header h1, header h2, header h3, header p, footer h3  {
+  font-size: 15px;
+  font-family: 'Nixie One', sans-serif;
+  margin: 1px;
+  padding: 0;
+  width: 100%;
+  text-align: justify;
+}
+
+.fa-twitter {
+  display: none;
+}
+
+header {
+  background: none;
+  font-family: 'Nixie One', sans-serif;
+  width: 100%;
+}
+
+div {
+  background: none;
+}
+img.alt {
+  display: block;
+  width: 100%;
+}
+
+div.skillsBlurb p, footer p {
+  font-size: 13px;
+  background: none;
+  text-align: justify;
+  width: 100%;
+}
+
+.aboutMe {
+  display: none;
+}
+    }
+  }
+
+
+
